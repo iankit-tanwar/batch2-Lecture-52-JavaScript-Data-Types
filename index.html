@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>batch2 Lecture 52 JavaScript Data Types</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+
+    </style>
+
+    <script src="./js/script.js">
+
+    </script>
+</head>
+
+<body>
+    <div id="stud"></div>
+    <p class="stud2"></p>
+    <h1>JavaScript Data types</h1>
+    <ol>
+        <li>Number 23,3.3</li>
+        <li>String ""/''/``</li>
+        <li>Object{}</li>
+    </ol>
+
+    <script src="./js/script2.js"></script>
+    <script>
+
+        let student2 = {
+            //1 property:value
+            name: 'Anil',
+            phone_no: 7777777
+
+            //2
+        } //JS object
+
+        //2nd way to see Js code output
+        document.getElementById('stud').innerHTML = `Hello ` + student2.name + " " + student2.phone_no;
+
+    </script>
+    <script>
+        let student3 = {
+            //1 property : value
+            name: 'Mukku',
+            addrs: 'Bihar'
+            //2
+        }
+
+        //3 way to see output Js code output
+        document.querySelector('p.stud2').innerHTML = student3.name + ' ' + student3.addrs
+
+    </script>
+</body>
+
+</html>
